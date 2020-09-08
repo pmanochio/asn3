@@ -1,0 +1,34 @@
+
+
+img{
+    width: 300px;
+
+}
+header{
+    background-color: #F7E1D2;
+    color: #3BADA8;
+}
+.projects{
+    background-color: #E0FEFF;
+}
+.projects a{
+background-color:#F7E1D2 ;
+text-decoration:none;
+padding: 8px;
+border-radius: 4px;
+}
+.projects a:hover{
+    background:rgba(247, 225, 210,80%)
+}
+.work{
+    background-color: #80A9AB;
+}
+footer{
+    background-color: #ABABAB;
+}
+a{
+    color:#578AAC;
+}
+a:hover{
+    text-decoration: none;
+}
