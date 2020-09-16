@@ -1,4 +1,17 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
 
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
 
 img{
     width: 300px;
@@ -16,9 +29,22 @@ background-color:#F7E1D2 ;
 text-decoration:none;
 padding: 8px;
 border-radius: 4px;
+display:inline-block;
 }
 .projects a:hover{
     background:rgba(247, 225, 210,80%)
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #80A9AB;
+    padding:25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+    margin-top: 0;
 }
 .work{
     background-color: #80A9AB;
@@ -31,4 +57,22 @@ a{
 }
 a:hover{
     text-decoration: none;
+}
+h1{
+    font-size:100px;
+    line-height: 1;
+}
+h1, h2{
+    font-family:'Caveat', cursive;
+    font-weight:  400;
+    margin:0;
+}
+h2{
+
+    font-size: 45px;
+}
+.content-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
